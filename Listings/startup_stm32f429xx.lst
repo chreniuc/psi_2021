@@ -885,20 +885,24 @@ ARM Macro Assembler    Page 14
               00000400 
               00000200 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=.\objects\startup_stm32f429xx.d -o.\objects\startup_stm32f429xx
-.o -I.\RTE\CMSIS -I.\RTE\Compiler -I.\RTE\Device\STM32F429ZITx -I.\RTE\File_Sys
-tem -I.\RTE\USB -I.\RTE\_mbeGate -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Co
-re\Include -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Driver\Include -IC:\Keil
-_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include -IC:\Keil_v5\ARM\PACK\ARM\CMSI
-S\5.7.0\CMSIS\RTOS2\RTX\Include -IC:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.3\I
-nclude -IC:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.12.0\Board -IC:\Keil_v5\ARM\
-PACK\Keil\MDK-Middleware\7.12.0\FileSystem\Include -IC:\Keil_v5\ARM\PACK\Keil\M
-DK-Middleware\7.12.0\USB\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.
-0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F4x
-x_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc --predefine="__UVISION_VERSION SE
-TA 528" --predefine="_RTE_ SETA 1" --predefine="STM32F429xx SETA 1" --list=.\li
-stings\startup_stm32f429xx.lst RTE\Device\STM32F429ZITx\startup_stm32f429xx.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
+interwork --depend=.\objects\startup_stm32f429xx.d -o.\objects\startup_stm32f42
+9xx.o -I.\RTE\CMSIS -I.\RTE\Compiler -I.\RTE\Device\STM32F429ZITx -I.\RTE\File_
+System -I.\RTE\USB -I.\RTE\_mbeGate -IC:\Users\Sebi\AppData\Local\Arm\Packs\ARM
+\CMSIS\5.7.0\CMSIS\Core\Include -IC:\Users\Sebi\AppData\Local\Arm\Packs\ARM\CMS
+IS\5.7.0\CMSIS\Driver\Include -IC:\Users\Sebi\AppData\Local\Arm\Packs\ARM\CMSIS
+\5.7.0\CMSIS\RTOS2\Include -IC:\Users\Sebi\AppData\Local\Arm\Packs\ARM\CMSIS\5.
+7.0\CMSIS\RTOS2\RTX\Include -IC:\Users\Sebi\AppData\Local\Arm\Packs\ARM\CMSIS\5
+.7.0\CMSIS\RTOS2\RTX\Include1 -IC:\Users\Sebi\AppData\Local\Arm\Packs\Keil\ARM_
+Compiler\1.6.3\Include -IC:\Users\Sebi\AppData\Local\Arm\Packs\Keil\MDK-Middlew
+are\7.12.0\Board -IC:\Users\Sebi\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.
+12.0\FileSystem\Include -IC:\Users\Sebi\AppData\Local\Arm\Packs\Keil\MDK-Middle
+ware\7.12.0\USB\Include -IC:\Users\Sebi\AppData\Local\Arm\Packs\Keil\STM32F4xx_
+DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\Sebi\AppData\Lo
+cal\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc --pred
+efine="__RTX SETA 1" --predefine="__UVISION_VERSION SETA 532" --predefine="_RTE
+_ SETA 1" --predefine="STM32F429xx SETA 1" --predefine="_RTE_ SETA 1" --list=.\
+listings\startup_stm32f429xx.lst RTE\Device\STM32F429ZITx\startup_stm32f429xx.s
 
 
 
@@ -2089,4 +2093,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-457 symbols in table
+458 symbols in table

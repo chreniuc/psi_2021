@@ -176,7 +176,7 @@
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M4"</AdsCpuType>
             <RvctDeviceName></RvctDeviceName>
-            <mOS>0</mOS>
+            <mOS>1</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
             <hadIROM>1</hadIROM>
@@ -185,6 +185,7 @@
             <uocXRam>0</uocXRam>
             <RvdsVP>2</RvdsVP>
             <RvdsMve>0</RvdsMve>
+            <RvdsCdeCp>0</RvdsCdeCp>
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -351,7 +352,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <uClangAs>0</uClangAs>
+            <ClangAsOpt>4</ClangAsOpt>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -679,7 +680,7 @@
       <file attr="config" category="source" name="USB\Config\USBD_Config.c" version="5.2.0">
         <instance index="0">RTE\USB\USBD_Config_0.c</instance>
         <component Cbundle="MDK-Pro" Cclass="USB" Cgroup="Device" Cvendor="Keil" Cversion="6.14.1" condition="USB Core and Device Instance and Device Driver" maxInstances="4"/>
-        <package license="license.rtf" name="MDK-Middleware" schemaVersion="1.4" url="http://www.keil.com/pack/" vendor="Keil" version="7.12.0"/>
+        <package name="MDK-Middleware" schemaVersion="1.4" url="http://www.keil.com/pack/" vendor="Keil" version="7.12.0"/>
         <targetInfos>
           <targetInfo name="mbeGateUsb"/>
         </targetInfos>
@@ -687,7 +688,7 @@
       <file attr="config" category="header" name="USB\Config\USBD_Config_CDC.h" version="5.2.0">
         <instance index="0">RTE\USB\USBD_Config_CDC_0.h</instance>
         <component Cbundle="MDK-Pro" Cclass="USB" Cgroup="Device" Csub="CDC" Cvendor="Keil" Cversion="6.14.1" condition="USB Core and Device Instance and Device Driver" maxInstances="8"/>
-        <package license="license.rtf" name="MDK-Middleware" schemaVersion="1.4" url="http://www.keil.com/pack/" vendor="Keil" version="7.12.0"/>
+        <package name="MDK-Middleware" schemaVersion="1.4" url="http://www.keil.com/pack/" vendor="Keil" version="7.12.0"/>
         <targetInfos>
           <targetInfo name="mbeGateUsb"/>
         </targetInfos>

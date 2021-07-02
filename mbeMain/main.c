@@ -44,6 +44,10 @@
 #include "Board_Buttons.h"              // Board Support:Buttons
 
 
+// Hreniuc
+extern int Init_DataLoggerThread (void);
+extern int Init_Timers (void);
+
 extern void mbeThreadCycleb(void *argument);
 extern void mbeThreadDispatcherForServerb(void *argument);
 extern void mbeThreadDispatcherForLOGb(void *argument);
@@ -122,6 +126,11 @@ void app_main (void *argument) {
 
   LED_Initialize ();                    // Initialize LEDs
   Buttons_Initialize ();                // Initialize Buttons
+	
+		
+	// Initializeaza Threadul pentru logare si timerul.
+	Init_DataLoggerThread();
+	Init_Timers();
 
 tid_mbeThreadCycleb = osThreadNew (mbeThreadCycleb, NULL, NULL);  // Create LED thread
 tid_mbeThreadDispatcherForServerb = osThreadNew (mbeThreadDispatcherForServerb, NULL, NULL);  // Create LED thread
